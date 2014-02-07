@@ -1,0 +1,454 @@
+button{
+	width:140px;
+	height:40px;
+}
+
+input[type='file'] {
+  color: transparent;
+  width:85px;
+}
+
+#submitBtn{
+	margin-left:5px;
+	width:140px;
+	height:40px;
+}
+
+/*--------------Manage Delivery Schedule----------------*/
+.createSchedule{
+	width:140px;
+	height:40px;
+	margin:-60px auto;
+	float:right;
+	position:relative;
+}
+
+.manageDeliveryScheduleTable{
+	height:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.manageDeliveryScheduleTable thead{
+	border:1px solid black;
+	background:#DFAE74;
+}
+
+.manageDeliveryScheduleTable td{
+	border:1px solid black;
+	width:80px;
+	padding:10px;
+}
+
+.manageDeliveryScheduleTable a{
+	color:black;
+}
+
+.manageDeliveryScheduleTable td a:hover{
+	color:black;
+}
+
+.manageDeliveryScheduleTable td a:link{
+	text-decoration:none;
+	color:black;
+}
+
+/*--------------Delete Delivery Schedule ----------------*/
+.buttonCol1 button{
+	width:140px;
+	height:40px;
+}
+
+/*--------------Create/Update Delivery Schedule ----------------*/
+#calendar{
+	float:right;
+	width:500px;
+	height:auto;
+	margin-top:0px;
+}
+
+.buttonCol0{
+	margin-top:-40px;
+	margin-left:150px;
+}
+
+.buttonCol0 button{
+	width:140px;
+	height:40px;
+}
+
+.bodywithoutSide .scheduleTable td{
+	padding:5px;
+}
+
+.addtionalButtonCol{
+	display:inline-block;
+	margin-left:-10px;
+	margin-top:-20px;
+}
+
+.addtionalButtonCol button{
+	width:150px;
+	height:50px;
+	margin-top:3px;
+	margin-left:5px;
+}
+
+.addtionalButtonCol .uploadBtnExcel{
+	width:150px;
+	height:50px;
+	margin-top:3px;
+}
+
+.allocatedHeading h4{
+	width:200px;
+}
+
+#uploadBtnExcel {
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#vehicleAdd table{
+	border:1px solid black;
+	padding:10px;
+	width:285px;
+	background-color:#DFAE74;
+}
+
+#packingListAdd table{
+	border:1px solid black;
+	padding:10px;
+	width:285px;
+	background-color:#DFAE74;
+}
+
+/*--------------Manage Beneficiary ----------------*/
+.createBeneficiary{
+	width:140px;
+	height:40px;
+	margin:-60px auto;
+	float:right;
+	position:relative;
+}
+
+.manageBeneficiaryTable{
+	height:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.manageBeneficiaryTable thead{
+	border:1px solid black;
+	background:#DFAE74;
+}
+
+.manageBeneficiaryTable td{
+	border:1px solid black;
+	width:80px;
+	padding:10px;
+}
+
+.manageBeneficiaryTable a{
+	color:black;
+}
+
+.manageBeneficiaryTable td a:hover{
+	color:black;
+}
+
+.manageBeneficiaryTable td a:link{
+	text-decoration:none;
+	color:black;
+}
+
+/*--------------Delete Beneficiary ----------------*/
+.buttonCol3 button{
+	width:140px;
+	height:40px;
+}
+/*--------------View Beneficiary/Delivery Schedule ----------------*/
+.profile{
+	border:1px solid black;
+	border-radius:10px;
+	margin-top:35px;
+	padding:25px;
+	width:250px;
+	height: auto;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+
+.relatedSchedule{
+	margin-left:305px;
+	width:805px;	
+	height:600px;
+	padding:10px;
+	display:inline-block;
+}
+
+.scheduleDetails .scheduleInformation{
+	border:1px solid black;
+	margin-top:57px;
+	margin-left:315px;
+	width:765px;
+	height:auto;
+	padding:20px;
+	position:relative;
+}
+
+.scheduleDetails .scheduleInformation .packingListInfo{
+	width:18%;
+	display:inline-block;
+	float:left;
+}
+
+.scheduleDetails .scheduleInformation .foodInfo{
+	width:79%;
+	display:inline-block;
+	margin-left:16px;
+}
+
+.scheduleDetails .scheduleInformation .foodInfo .foodTable{
+	height:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.scheduleDetails .vehicleInformation{
+	border:1px solid black;
+	margin-top:15px;
+	margin-left:315px;
+	width:765px;	
+	height:auto;
+	padding:20px;
+}
+
+.scheduleDetails .vehicleInformation h5{
+	display:block;
+	margin-top:-10px;
+}
+
+
+/*--------------Create/update Beneficiary ----------------*/
+.buttonCol2{
+	margin-top:-40px;
+	margin-left:150px;
+}
+
+.buttonCol2 button{
+	width:140px;
+	height:40px;
+}
+
+.bodywithoutSide .createBeneficiaryTable td{
+	padding:5px;
+}
+
+.bodywithoutSide .updateBeneficiaryTable td{
+	padding:5px;
+}
+
+/*--------------Manage Vehicle ----------------*/
+.createVehicle{
+	width:140px;
+	height:40px;
+	margin:-60px auto;
+	float:right;
+	position:relative;
+}
+
+.manageVehicleTable{
+	height:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.manageVehicleTable thead{
+	border:1px solid black;
+	background:#DFAE74;
+}
+
+.manageVehicleTable td{
+	border:1px solid black;
+	width:80px;
+	padding:10px;
+}
+
+.manageVehicleTable a{
+	color:black;
+}
+
+.manageVehicleTable tbody td a:hover{
+	color:black;
+}
+
+.manageVehicleTable td a:link{
+	text-decoration:none;
+	color:black;
+}
+
+/*--------------Create/update Vehicle ----------------*/
+.buttonCol4{
+	margin-top:-40px;
+	margin-left:150px;
+}
+
+.buttonCol4 button{
+	width:140px;
+	height:40px;
+}
+
+.bodywithoutSide .createVehicleTable td{
+	padding:5px;
+}
+
+.bodywithoutSide .updateVehicleTable td{
+	padding:5px;
+}
+
+/*--------------Delete Vehicle ----------------*/
+.buttonCol5 button{
+	width:140px;
+	height:40px;
+}
+
+/*--------------View Beneficiary/Delivery Schedule/Vehicle ----------------*/
+.vehicleProfile{
+	border:1px solid black;
+	border-radius:10px;
+	margin-top:35px;
+	padding:25px;
+	width:250px;
+	height: auto;
+	position:relative;
+}
+
+.viewSchedule{
+	border:1px solid black;
+	list-style:none;
+	margin-left:-35px;
+	marign-top:20px;
+	width:auto;
+	padding:15px;
+	height:auto;
+}
+
+.editDeleteCol{
+	float:right;
+	margin: -45px -15px;
+}
+
+.editDeleteCol form{
+	display:inline;
+}
+
+.editDeleteCol button{
+	width:140px;
+	height:40px;
+}
+
+
+
+/*--------------Copy Schedule ----------------*/
+.copyScheduleTable{
+	height:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.copyScheduleTable thead{
+	border:1px solid black;
+	background:#DFAE74;
+}
+
+.copyScheduleTable td{
+	border:1px solid black;
+	width:100px;
+	padding:20px;
+}
+
+.copyScheduleTable a{
+	color:black;
+}
+
+.copyScheduleTable td a:hover{
+	color:black;
+}
+
+.copyScheduleTable td a:link{
+	text-decoration:none;
+	color:black;
+}
+
+.selectBtn{
+	margin-top:auto;
+}
+
+/*--------------Allocate Van ----------------*/
+.allocateVanTable{
+	height:auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.allocateVanTable thead{
+	border:1px solid black;
+	background:#DFAE74;
+}
+
+.allocateVanTable td{
+	border:1px solid black;
+	width:100px;
+	padding:20px;
+}
+
+.allocateVanTable a{
+	color:black;
+}
+
+.allocateVanTable td a:hover{
+	color:black;
+}
+
+.allocateVanTable td a:link{
+	text-decoration:none;
+	color:black;
+}
+
+/*--------------Show Summary of Delivery Schedule ----------------*/
+#summaryCalendar{
+	width:800px;
+	margin-left:-34px;
+}
+
+.scheduleInfo{
+	float: right;
+	padding:15px;
+	border:1px solid black;
+	border-radius:10px;
+	width:200px;
+	height:auto;
+	background:#DFAE74;
+	position:relative;
+}
+
+.scheduleInfo .scheduleRedirect:hover{
+	color:red;
+}
+
+.scheduleInfo .scheduleRedirect:link{
+	color:black;
+	text-decoration:none;
+}
+
+.scheduleInfo table td{
+	height:auto;
+}
+
+.validationSummary{
+	position:relative;
+}
