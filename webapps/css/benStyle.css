@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #Fcfcc7;
+	position:relative;
+	font-family: arial;
+}
+
+/*--------------Menu----------------*/
+.menu{
+	width: 100%;
+	min-width:1000px;
+	background-color: #Fcfcc7;
+}
+
+/*--------------Body----------------*/
+.sideBar {
+	margin-top: 4.4%;
+	margin-left: 6%;
+	margin-right: 5%;
+	margin-bottom: 7%;
+	float: left;
+	height: 75%;
+	position: fixed;
+	width: 18%;
+	border-radius: 15px;
+	background-color: #FFDEAD;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+.body{
+	margin-top: 4.4%;
+	margin-left: 27%;
+	margin-right: 5%;
+	margin-bottom: 7%;
+	Overflow: hidden;
+	height: auto;
+	width: 60%;
+	background-color: #FFDEAD;
+	border-radius: 20px;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	padding-top: 3%;
+}
+
+.body hr{
+	width:100%;
+	margin-top:-10px;
+	margin-left:-8px;
+}
+#title {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	width: 90%;
+	margin-top: 1%;
+}
+
+.bodywithoutSide{
+	margin-top: 4.4%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 7%;
+	Overflow: hidden;
+	height: auto;
+	width: 83%;
+	background-color: #FFDEAD;
+	border-radius: 20px;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	padding-top: 3%;
+}
+/*--------------Creation----------------*/
+.registerProduct{
+	margin-left: 12%;
+	margin-top:2%;
+}
+
+.buttons{
+	margin-top: 38%;
+	margin-left: 32%;
+}
+
+/*----------Map-----------*/
+#location{
+	height: 50px;
+	width: 517px;
+	border: 2px solid black;
+	margin-right: 19%;
+	padding-left: 1.5%;
+	padding-right: 1.7%;
+}
+
+#map{
+	height: auto;
+	width: 530px;
+	border: 3px solid black;
+	margin-right: 19%;
+}
+
+#mapForViewing{
+	height: auto;
+	width: 43%;
+	border: 3px solid black;
+	margin-right: 13%;
+	float:right;
+}
+
+.map{
+	margin-left: 9%;
+}
+
+#selected{
+	float:left;
+}
+
+#selectedWeight{
+	float: right;
+}
+
+#imgLogo{
+	width: 100%;
+}
+
+#mapImg{
+	width:100%;
+}
